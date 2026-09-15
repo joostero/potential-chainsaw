@@ -1,6 +1,6 @@
-<app-header [title]="title()"/>
+<app-header [title]="title()" [today]="today()"/>
 <app-navigation />
 <main>
 <router-outlet />
 </main>
-<app-footer />
+<app-footer [today]="today()"/>

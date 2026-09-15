@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './footer.scss',
 })
 export class Footer {
-  today: Date = new Date();
+  @Input('today') today!: Date;
 }
